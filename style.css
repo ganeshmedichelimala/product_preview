@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Outfit:wght@400;700&family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  /* overflow: hidden; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Inter", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 612px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.text-cont {
+  margin: 10px;
+  padding: 20px;
+}
+
+.title-1 {
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.title-2 {
+  color: hsl(212, 21%, 14%);
+  text-align: start;
+  font-size: 35px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.price-tag {
+  color: hsl(158, 36%, 37%);
+}
+
+.price-tag-2 {
+  color: hsl(228, 12%, 48%);
+}
+
+.btn-cart {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  width: 200px;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+
+  margin: auto;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 10px;
+}
